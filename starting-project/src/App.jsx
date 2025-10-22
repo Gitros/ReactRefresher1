@@ -2,10 +2,10 @@ import Post from "./components/Post";
 
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-      <Post />
-    </div>
+    <main>
+      <Post author="Maximilian" body="React.js is awesome!" />
+      <Post author="Manuel" body="React.js is awesome lol!" />
+    </main>
   );
 }
 
